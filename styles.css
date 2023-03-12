@@ -1,1 +1,10 @@
 /* INDEX STYLING */
+.nav-links{
+    text-align:right;
+}
+
+.search-input{
+    display:inline-block;
+    width:100%;
+    text-align:center;
+}
