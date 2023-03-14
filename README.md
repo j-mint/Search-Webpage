@@ -1,2 +1,2 @@
 # Search-Webpage
-Recreate the google search page, image search and advanced search using HTML and CSS.
+https://cs50.harvard.edu/web/2020/projects/0/search/
