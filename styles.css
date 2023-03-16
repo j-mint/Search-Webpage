@@ -5,19 +5,22 @@ body {
 
 .nav-links {
     text-align: right;
-    height:48px;
+    height: 48px;
 }
-a{
-    color: rgba(0,0,0,.87);
-    text-decoration:none;
+
+a {
+    color: rgba(0, 0, 0, .87);
+    text-decoration: none;
     font-family: Arial, sans-serif;
-    font-size:13px;
+    font-size: 13px;
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
 }
-.advanced{
-    margin-left:15px;
+
+.margin-left-15px {
+    margin-left: 15px;
 }
 
 img {
@@ -32,9 +35,13 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top:290px;
+    margin-top: 290px;
 }
-.search-input{margin:20px;}
+
+.search-input {
+    margin: 20px;
+}
+
 .textfield {
     border-radius: 15px;
     height: 44px;
@@ -42,8 +49,8 @@ img {
     cursor: text;
     background: #fff;
     border: 1px solid #dfe1e5;
-    padding-left:20px;
-    outline:0;
+    padding-left: 20px;
+    outline: 0;
 }
 
 form {
@@ -70,12 +77,13 @@ button {
     margin: 11px 4px;
     padding: 0 16px;
     color: #3c4043;
-    margin-top:18px;
-    cursor:pointer;
+    margin-top: 18px;
+    cursor: pointer;
 }
+
 .button:hover,
-button:hover{
-    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+button:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
     background-color: #f8f9fa;
     border: 1px solid #dadce0;
     color: #202124;
@@ -84,12 +92,111 @@ button:hover{
 .button:focus,
 button:focus {
     border: 1px solid #4285f4;
-    
+
 }
 
 .images-text {
     color: #4285f4;
     font: 16px arial, sans-serif;
-    margin-top:-18px;
-    margin-left:200px;
+    margin-top: -18px;
+    margin-left: 200px;
+}
+
+/* Advanced Search */
+.advanced-form {
+    display: block;
+    max-width: 800px;
+}
+
+h1 {
+    color: #d93025;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 25px 0 25px 45px;
+    font-weight: lighter;
+}
+
+.find-pages-with {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.advanced-search-input {
+    margin: 40px 45px;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    font-size: 13px;
+    vertical-align: middle;
+
+}
+
+fieldset {
+    padding: 0;
+    border: none;
+}
+
+.search-descriptor {
+    height: 42px;
+    width: 167px;
+    display: inline-block;
+
+
+}
+
+.search-field {
+    display: inline-block;
+    height: 42px;
+    width: 572px;
+    min-width: 167px;
+    vertical-align: top;
+
+}
+
+.advanced-input {
+    display: block;
+    width: 100%;
+    height: 25px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+}
+
+input[value="Advanced Search"] {
+    border: 1px solid #3079ed;
+    color: #fff;
+    background-color: #4d90fe;
+    padding: 0 12px;
+    height: 30px;
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 632px;
+}
+
+input[value="Advanced Search"]:hover {
+    border: 1px solid #2f5bb7;
+    color: #fff;
+    background-color: #357ae8;
+    padding: 0 12px;
+
+}
+
+input[value="Advanced Search"]:focus {
+    box-shadow: inset 0 0 0 1px #fff;
+}
+input[type="text"]:focus{
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.3);
+    border: 1px solid #4d90fe;
+    outline: none;
 }
